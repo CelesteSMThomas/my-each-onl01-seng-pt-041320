@@ -3,6 +3,6 @@ def my_each (array)
   while i < array.length do
     yield  array[i]
     i += 1
-end
-array
+  end
+  array
 end
