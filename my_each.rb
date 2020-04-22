@@ -1,5 +1,7 @@
 def my_each (array)
   i = 0
-while i < array.length 
-yield 
+while i < array.length do |num|
+yield  num
+i += 1
+end
 end
